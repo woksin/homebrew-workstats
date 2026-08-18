@@ -2,28 +2,28 @@
 class Workstats < Formula
   desc "See where the work happened, without sending your work anywhere"
   homepage "https://github.com/woksin/workstats"
-  version "1.2.0"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/woksin/workstats/releases/download/v1.2.0/workstats-macos-arm64.tar.gz"
-      sha256 "4e5c0ae8425ea0556166f6bcc39902ffdc28ae0f128c5c70a192813ac771b461"
+      url "https://github.com/woksin/workstats/releases/download/v1.3.0/workstats-macos-arm64.tar.gz"
+      sha256 "ec0b2cdeeae63c516215c3aced91d393993c3cf07e867b528fc81ed301503dbd"
     end
     on_intel do
-      url "https://github.com/woksin/workstats/releases/download/v1.2.0/workstats-macos-x86_64.tar.gz"
-      sha256 "f135507defb209564152ff0f7155a5a5a1fdcdb2dd16a9427672c7a394f8a89b"
+      url "https://github.com/woksin/workstats/releases/download/v1.3.0/workstats-macos-x86_64.tar.gz"
+      sha256 "210854e1f19f2c0564fee0b06c02df20e13c6fe1dde2baf1c96ff9bc29b0b1d8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/woksin/workstats/releases/download/v1.2.0/workstats-linux-arm64.tar.gz"
-      sha256 "3aa1f8370a88d1d1aee1470655e19d3e9b23e6a4998bb48eb13d6e0933088a11"
+      url "https://github.com/woksin/workstats/releases/download/v1.3.0/workstats-linux-arm64.tar.gz"
+      sha256 "305b18a39f045b45aea488258f5e2cb586075ba7b309009c21fdd38ab8f34c63"
     end
     on_intel do
-      url "https://github.com/woksin/workstats/releases/download/v1.2.0/workstats-linux-x86_64.tar.gz"
-      sha256 "4e38a4fbc835ba7956e399d8e925ccad89c459bef4a6bdfeae2e5af698cfa4a2"
+      url "https://github.com/woksin/workstats/releases/download/v1.3.0/workstats-linux-x86_64.tar.gz"
+      sha256 "64dcdf609e8e3fca6e9ebe3b11276a3d6efb940078ea274dd91a851d5bf5ba04"
     end
   end
 
